@@ -1,0 +1,1 @@
+Based on an articel on http://matija.suklje.name/my-very-own-zsh-prompt

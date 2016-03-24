@@ -29,7 +29,7 @@ setopt prompt_subst # Enables additional prompt extentions
 autoload -U colors && colors    # Enables colours
 
 ### My default prompt
-PROMPT='%(!.%B%U%F{blue}%n%f%u%b.%F{blue}%n%f) at %F{magenta}%m%f on %F{yellow}%y%f in %F{cyan}%~%f{${vcs_info_msg_0_} %(!.%F{red}$(prompt_char)%f.$(prompt_char)) }: %{$reset_color%}'
+PROMPT='%(!.%B%U%F{blue}%n%f%u%b.%F{blue}%n%f)@%F{magenta}%m%f %F{cyan}%~%f$prompt_newline{${vcs_info_msg_0_} %(!.%F{red}$(prompt_char)%f.$(prompt_char)) }: %{$reset_color%}'
 ### My default prompt's right side
 RPROMPT='%F{cyan}%D{%e.%b.%y %H.%M}%f%{$reset_color%}'
 
